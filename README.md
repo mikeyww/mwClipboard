@@ -20,5 +20,4 @@ This program provides a simple clipboard manager. A hotkey displays a list of cl
 - A simple notepad is included as a temporary editing area for working with text
 - The entire program consists of one portable file of less than 1 MB
 
-- By mikeyww in U.S.A.
-- For AutoHotkey version 2.0.16
+By mikeyww in U.S.A. • For AutoHotkey version 2.0.16
