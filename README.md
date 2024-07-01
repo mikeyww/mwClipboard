@@ -1,6 +1,6 @@
 # mwClipboard
 
-This program provides a simple clipboard manager. A hotkey displays a list of clips. The user can then select one or more to paste.
+This program provides a simple clipboard manager for Microsoft Windows. A hotkey displays a list of clips. The user can then select one or more to paste.
 
 - Fast and easy to use
 - Multiple clips can be selected and pasted
