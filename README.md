@@ -21,3 +21,5 @@ This program provides a simple clipboard manager for Microsoft Windows. A hotkey
 - The entire program consists of one portable file of less than 1 MB
 
 By mikeyww in U.S.A. • For AutoHotkey version 2.0.16
+
+[https://github.com/mikeyww/mwClipboard/](https://github.com/mikeyww/mwClipboard/)
