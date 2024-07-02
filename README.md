@@ -20,7 +20,7 @@ This program provides a simple clipboard manager for Microsoft Windows. A hotkey
 - A simple notepad is included as a temporary editing area for working with text
 - The entire program consists of one portable file of less than 1 MB
 
-By mikeyww in U.S.A. • For [AutoHotey](https://autohotkey.com/) version 2.0.16
+By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.16
 
 [https://github.com/mikeyww/mwClipboard/](https://github.com/mikeyww/mwClipboard/)
 
