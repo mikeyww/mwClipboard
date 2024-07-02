@@ -23,3 +23,5 @@ This program provides a simple clipboard manager for Microsoft Windows. A hotkey
 By mikeyww in U.S.A. • For AutoHotkey version 2.0.16
 
 [https://github.com/mikeyww/mwClipboard/](https://github.com/mikeyww/mwClipboard/)
+
+[GNU General Public License](https://github.com/mikeyww/mwClipboard/blob/main/LICENSE)
