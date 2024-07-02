@@ -2,6 +2,8 @@
 
 This program provides a simple clipboard manager for Microsoft Windows. A hotkey displays a list of clips. The user can then select one or more to paste.
 
+## Features
+
 - Fast and easy to use
 - Multiple clips can be selected and pasted
 - Selected clips are pasted in reverse order, reflecting the order of clipping
