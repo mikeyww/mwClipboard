@@ -20,6 +20,17 @@ This program provides a simple clipboard manager for Microsoft Windows. A hotkey
 - A simple notepad is included as a temporary editing area for working with text
 - The entire program consists of one portable file of less than 1 MB
 
+## Default global hotkeys
+
+|    Global hotkey   | Description                                                |
+|:------------------:|------------------------------------------------------------|
+|     CTRL-ALT-0     | Show main GUI                                              |
+|  CTRL-ALT-SHIFT-0  | Add clip manually                                          |
+|     CTRL-ALT-9     | Send clipboard as plain text                               |
+|    CTRL-SHIFT-9    | Send second clip as plain text (does not change clipboard) |
+|   CTRL-SHIFT-F12   | Show simple notepad to work with text                      |
+| CTRL-ALT-SHIFT-F12 | Populate notepad with text selection                       |
+
 By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.16
 
 [https://github.com/mikeyww/mwClipboard/](https://github.com/mikeyww/mwClipboard/)
