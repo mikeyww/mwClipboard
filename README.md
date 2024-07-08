@@ -40,3 +40,5 @@ By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.1
 [https://www.autohotkey.com/boards/viewtopic.php?f=83&t=131119](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=131119)
 
 [License](https://github.com/mikeyww/mwClipboard/blob/main/LICENSE)
+
+[For Windows x64](https://github.com/mikeyww/mwClipboard/releases)
