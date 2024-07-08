@@ -35,10 +35,14 @@ This program provides a simple clipboard manager for Microsoft Windows. A hotkey
 
 By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.16
 
-[https://github.com/mikeyww/mwClipboard/](https://github.com/mikeyww/mwClipboard/)
-
-[https://www.autohotkey.com/boards/viewtopic.php?f=83&t=131119](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=131119)
-
-[License](https://github.com/mikeyww/mwClipboard/blob/main/LICENSE)
+## Download
 
 [For Windows x64](https://github.com/mikeyww/mwClipboard/releases)
+
+## Related sites
+
+[GitHub](https://github.com/mikeyww/mwClipboard/) | [AutoHotkey](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=131119) | [MajorGeeks](https://www.majorgeeks.com/files/details/mwclipboard.html)
+
+## License
+
+[https://github.com/mikeyww/mwClipboard/blob/main/LICENSE](https://github.com/mikeyww/mwClipboard/blob/main/LICENSE)
