@@ -35,6 +35,13 @@ This program provides a simple clipboard manager for Microsoft Windows. A hotkey
 
 By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.16
 
+## Is mwClipboard a virus?
+
+- mwClipboard contains no malware, viruses, or spyware.
+- mwClipboard does not connect to the Internet.
+- VirusTotal may report a security issue with mwClipboard. This is a false-positive report.
+- Antivirus software may report that mwClipboard is not commonly downloaded.
+
 ## Download
 
 [For Windows x64](https://github.com/mikeyww/mwClipboard/releases)
