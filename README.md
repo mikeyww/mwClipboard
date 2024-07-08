@@ -37,10 +37,11 @@ By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.1
 
 ## Is mwClipboard a virus?
 
-- mwClipboard contains no malware, viruses, or spyware.
+- mwClipboard contains no malware, ransomware, viruses, or spyware.
 - mwClipboard does not connect to the Internet.
 - VirusTotal may report a security issue with mwClipboard. This is a false-positive report.
 - Antivirus software may report that mwClipboard is not commonly downloaded.
+- Artificial intelligence was not used to design, create, or implement mwClipboard 
 
 ## Download
 
