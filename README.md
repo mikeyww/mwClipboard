@@ -59,7 +59,7 @@ By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.1
 
 ## Related sites
 
-[GitHub](https://github.com/mikeyww/mwClipboard/) | [AutoHotkey](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=131119) | [MajorGeeks](https://www.majorgeeks.com/files/details/mwclipboard.html)
+[GitHub](https://github.com/mikeyww/mwClipboard/) | [AutoHotkey](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=131119) | [MajorGeeks](https://www.majorgeeks.com/files/details/mwclipboard.html) | [SourceForge](https://sourceforge.net/projects/mwclipboard/)
 
 ## License
 
