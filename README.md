@@ -47,6 +47,11 @@ By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.1
 
 [For Windows x64](https://github.com/mikeyww/mwClipboard/releases)
 
+## Upcoming changes
+
+- Added: For duplicate clips: Try, and DllCall('GetOpenClipboardWindow') before checking
+- Changed: Copy non-text as well as text
+
 ## Related sites
 
 [GitHub](https://github.com/mikeyww/mwClipboard/) | [AutoHotkey](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=131119) | [MajorGeeks](https://www.majorgeeks.com/files/details/mwclipboard.html) | [SourceForge](https://sourceforge.net/projects/mwclipboard/)
