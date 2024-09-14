@@ -51,6 +51,7 @@ By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.1
 
 - Added: For duplicate clips: Try, and DllCall('GetOpenClipboardWindow') before checking
 - Changed: Copy non-text as well as text
+- Changed: Notepad's CutD shortcut key from backtick to F6
 
 ## Related sites
 
