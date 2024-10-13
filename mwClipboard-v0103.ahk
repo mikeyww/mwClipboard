@@ -1,28 +1,30 @@
-version := '1.2'
+version := '1.3'
 
 /* mwClipboard ---------------------------------------------------------------------------------------------
 This program provides a simple clipboard manager.
 A hotkey displays a list of clips. The user can then select one or more to paste.
 For additional details, see the helpTextArr.
 Key features:
-• Fast and easy to use
-• Multiple clips can be selected and pasted
-• Selected clips are pasted in reverse order, reflecting the order of clipping
-• Full text of all selected clips is displayed in an edit control, shown as the clips will be pasted
-• Clips selected to be pasted will populate the clipboard
-• The first or second clip can be sent (optionally) without affecting the clipboard
-• Clips are saved in a plain text file
-• A sound is played when the clipboard changes
-• The GUI of clips can be resized
-• A ListView control for clips enables using the keyboard to jump directly to a clip
-• The ListView can be reset (cleared) without affecting the text file of clips
-• For repeated pasting, the main GUI can be set to be redisplayed after pasting clips
-• Clips can be added manually via an input box
-• Right-clicking an item in the list will copy it to the clipboard
-• A menu option will open the text file of clips for editing, viewing, or searching
-• A simple notepad is included as a temporary editing area for working with text
-• The entire program consists of one portable file of less than 1 MB
-By mikeyww in U.S.A. • For AutoHotkey version 2.0.16
+â€¢ Fast and easy to use
+â€¢ Multiple clips can be selected and pasted
+â€¢ Selected clips are pasted in reverse order, reflecting the order of clipping
+â€¢ Full text of all selected clips is displayed in an edit control, shown as the clips will be pasted
+â€¢ Clips selected to be pasted will populate the clipboard
+â€¢ The first or second clip can be sent (optionally) without affecting the clipboard
+â€¢ Clips are saved in a plain text file
+â€¢ A sound is played when the clipboard changes
+â€¢ The GUI of clips can be resized
+â€¢ A ListView control for clips enables using the keyboard to jump directly to a clip
+â€¢ The ListView can be reset (cleared) without affecting the text file of clips
+â€¢ For repeated pasting, the main GUI can be set to be redisplayed after pasting clips
+â€¢ Clips can be added manually via an input box
+â€¢ Right-clicking an item in the list will copy it to the clipboard
+â€¢ A menu option will open the text file of clips for editing, viewing, or searching
+â€¢ A simple notepad is included as a temporary editing area for working with text
+â€¢ The entire program consists of one portable file of less than 1 MB
+By mikeyww in U.S.A. â€¢ For AutoHotkey version 2.0.16
+09 Sep 2024 (v1.3) : Added  : For duplicate clips: Try, and DllCall('GetOpenClipboardWindow') before checking
+                     Changed: Copy non-text as well as text
 15 Jul 2024 (v1.2) : Added  : GUI title adds "Administrator" suffix when the script is running as admin
                      Added  : Flag for restoring the original clip to the clipboard after pasting
                      Fixed  : F12 does not activate notepad when it is minimized
@@ -305,7 +307,8 @@ OnClipboardChange(clipChanged), OnExit(done)
 clipChanged(dataType) {                           ; Clipboard was changed; add textclips to top of ListView
  Static TEXT := 1
  (useAudio) && SoundPlay(audio)
- If dataType != TEXT
+ ; If dataType != TEXT
+ If A_Clipboard = ''
   Return
  LV.Modify 0, '-Select'                           ; Deselect all rows
  LV.Insert 1, 'Focus Select', A_Clipboard         ; Insert clip as first row in the ListView
@@ -313,8 +316,10 @@ clipChanged(dataType) {                           ; Clipboard was changed; add t
  Global goHome := True                            ; Send HOME key when GUI is next displayed
  ed.Text := A_Clipboard                           ; Update the edit control with the clip's full text
  dupe    := False
+ While DllCall('GetOpenClipboardWindow')
+  Sleep 10
  Loop LV.GetCount()
-  (A_Index > 1) && (LV.GetText(A_Index) = A_Clipboard) && LV.Delete(dupe := A_Index) ; Delete dupe if present
+  Try (A_Index > 1) && (LV.GetText(A_Index) = A_Clipboard) && LV.Delete(dupe := A_Index) ; Delete dupe if present
  Until dupe
  (!dupe) && FileAppend(A_Clipboard CRLF, clips) ; Save unique clips in a text file
 }
