@@ -43,6 +43,10 @@ By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.1
 - Antivirus software may report that mwClipboard is not commonly downloaded.
 - Artificial intelligence was not used to design, create, or implement mwClipboard 
 
+## Upcoming
+
+- Changed: Adding a clip manually will not display the clips list
+
 ## Download
 
 [For Windows x64](https://github.com/mikeyww/mwClipboard/releases)
