@@ -43,10 +43,6 @@ By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.2
 - Antivirus software may report that mwClipboard is not commonly downloaded.
 - Artificial intelligence was not used to design, create, or implement mwClipboard 
 
-## Upcoming changes
-
-- Added: Notepad option to replace notepad contents with clipboard contents
-
 ## Download
 
 [For Windows x64](https://github.com/mikeyww/mwClipboard/releases)
@@ -58,4 +54,5 @@ By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.2
 ## License
 
 [https://github.com/mikeyww/mwClipboard/blob/main/LICENSE](https://github.com/mikeyww/mwClipboard/blob/main/LICENSE)
+
 
