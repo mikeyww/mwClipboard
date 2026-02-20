@@ -33,7 +33,7 @@ This program provides a simple clipboard manager for Microsoft Windows. A hotkey
 |   CTRL-SHIFT-F12   | Show simple notepad to work with text                      |
 | CTRL-ALT-SHIFT-F12 | Populate notepad with text selection                       |
 
-By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.20
+By mikeyww in U.S.A. â€¢ For [AutoHotkey](https://autohotkey.com/) version 2.0.20
 
 ## Is mwClipboard a virus?
 
