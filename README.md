@@ -54,3 +54,5 @@ By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.2
 ## License
 
 [https://github.com/mikeyww/mwClipboard/blob/main/LICENSE](https://github.com/mikeyww/mwClipboard/blob/main/LICENSE)
+
+![Approved by MajorGeeks](https://majorgeeks.com/images/mg_approved.gif)
