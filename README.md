@@ -56,4 +56,6 @@ By mikeyww in U.S.A. • For [AutoHotkey](https://autohotkey.com/) version 2.0.2
 [https://github.com/mikeyww/mwClipboard/blob/main/LICENSE](https://github.com/mikeyww/mwClipboard/blob/main/LICENSE)
 
 
-![Approved by MajorGeeks](https://res.cloudinary.com/dcwgngtku/image/upload/v1772376038/mg_approved_rrrkaf.jpg)
+![Approved by MajorGeeks](https://github.com/user-attachments/assets/38d0cf13-58c7-4888-a102-c8932894181f)
+
+
